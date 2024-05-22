@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <section id="Acceuil" class="Acceuil">
+        <div class="nav">
+            <div class="logor">
+                <a href="#">Roger</a>
+            </div>
+           <div class="liens">
+            <ul class="liens"> 
+                <li><a href="#Acceuil">Acceuil</a></li>
+                     <li><a href="#Apropos">A propos</a></li>
+                         <li><a href="#Projets">Projets</a></li>
+                     <li><a href="#Competenses">Competenses</a></li>
+                 <li><a href="#contact">contact</a></li>
+             </ul>
+           </div>
+        </div>
+       <div class="acceuil-contenu">
+             <div class="texteacceuil">
+               <div class="texteacceuil1">
+                <h4>Salut</h4>
+                <h2>I'm Roger <br>MBAKAMA</h2>
+                <P>A freelance web Designer</P>
+               
+                    <button class="ecrire">M'écrire</button>
+                    <button class="traveaux">Mes traveaux</button>
+                </div>
+
+             </div>
+             <div class="imgacceuil">
+                <a href="#"><img src="img/KING.jpeg" class="ROGER" alt="" width="250px"></a>
+                <a href="#"><img src="img/MBAKAMA.jpeg" class="ROGER" alt="" width="250px"></a>
+                <a href="#"><img src="img/ROGER.jpeg" class="ROGER" alt="" width="250px"></a>
+                <a href="#"><img src="img/MBAKAMA.jpeg" class="ROGER" alt="" width="250px"></a>
+            </div>
+       </div>
+
+    </section>
+    <!-- debut section a propos -->
+
+        <section id="Apropos" class="Apropos">
+            <h4 class="about">About me</h4>
+    <div class="container">
+        <div class="imgapropos">
+            <a href=""><img src="img/KING.jpeg" alt=""></a>
+        </div>
+        <div class="texta">
+            <h4>about me</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ab cum fugit ipsum alias? Dolor animi
+                minus, nobis dolores laborum aspernatur debitis dolorum ex beatae? Dolorum delectus repudiandae impedit
+                accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ab cum fugit ipsum alias?
+                Dolor animi minus, nobibr dolores laborum aspernatur debitis dolorum ex beatae? Dolorum delectus
+                repudiandae impedit accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ab cum
+
+            </p>
+            <p class="paraz">
+                fugit ipsum alias? Dolor animi minus, nobis dolores laborum aspernatur debitis dolorum ex beatae?
+                Dolorum delectus repudiandae impedit ex beatae? Dolorum delectus repudiandae impedit accusantium Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Itaque ab cum fugit ipsum alias? Dolor animi minus,
+                nobibr accusantium!
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js">
+        function activerModifications() {
+    var img = document.querySelector('.imgapropos img');
+    var texta = document.querySelector('.texta');
+
+    img.style.width = '14em';
+    img.style.borderRadius = '50%';
+
+    texta.style.width = '30em';
+    texta.style.textAlign = 'justify';
+    texta.style.top = '20px';
+}
+ </script>
+    
+</section>
+    <!-- fin section parcours et debut section competences-->
+
+    <div id="Competenses" class="competenses">
+       
+            <h4 ><a href="#" class="cop">Competences</a></h4>
+           <div class="cmpts">
+            <div class="Competense">
+                <h3>Algorithmique</h3>
+                   <div class="barre">
+                       <a href=""><div class="progression" id="htmlProgrssion"></div></a>
+                    </div>
+            </div>
+
+           <div class="Competense">
+            <h3>/html</h3>
+               <div class="barre">
+                <a href=""><div class="progression" id="htmlProgrssion"></div></a>
+                </div>
+            </div>
+
+        <div class="Competense">
+            <h3>Css</h3>
+            <div class="barre">
+                <a href=""><div class="progression" id="htmlProgrssion"></div></a>
+            </div>
+        </div>
+
+        <div class="Competense">
+            <h3>Java Script</h3>
+            <div class="barre">
+                <a href=""><div class="progression" id="htmlProgrssion"></div></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- fin section competence et debut section projet -->
+
+
+
+    <section id="Projets" class="Projets">
+<h4><a href="#" class="proh4">Mes projets</a></h4>
+        <div class="dvprojet">
+            
+            <div class="projet">
+                <h3>En developement</h3>
+                    <a href="3"><img src="img/rogerrr.jpg" alt="" width="300px"></a>
+                        <P class="Description">Lorem ipsum dolor sit amet consectetur <br>
+                            adipisicing elit. Quisquam porro obcaecati <br>
+                            temporibus, asperiores est iure <br>
+                        </P>
+            </div>
+            <div class="projet">
+                <h3>En reséaux</h3>
+                    <a href="#"><img src="img/rogerrr.jpg" alt="" width="300px"></a>
+                        <P class="Description">Lorem ipsum dolor sit amet consectetur <br>
+                            adipisicing elit. Quisquam porro obcaecati <br>
+                            temporibus, asperiores est iure <br>
+                        </P>
+            </div>
+            <div class="projet">
+                <h3>En informatique</h3>
+                  <a href="">  <img src="img/rogerrr.jpg" alt="" width="300px" ></a>
+                        <P class="Description">Lorem ipsum dolor sit amet consectetur <br>
+                            adipisicing elit. Quisquam porro obcaecati <br>
+                            temporibus, asperiores est iure <br>
+                        </P>
+            </div>
+        </div>
+
+    </section>
+
+<!-- fin section projet et debut section galerie -->
+
+
+    <section id="galerie" class="galerie">
+        <h3><a href="#" class="galimg">Galerie</a></h3>
+       <div class="img">
+        <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+            <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+                <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+                    <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+                    <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+                    <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+                    <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+                    <a href="#"><img src="img/gfd.jpg" alt="" width="200px" class="gimg"></a>
+       </div>
+    </section>
+
+<!-- fin section galerie et debut footer -->
+
+
+
+    <footer id="contact" class="footer">
+       
+      <div class="grd">
+        
+        <div class="fest">
+            
+            <a href="#" class="logo">Acceuil</a>
+           
+            
+               <ul class="ulfest">
+                    <li><p>
+                            <a href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Debitis <br>
+                            Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Debitis 
+                            </a>
+                        </p>
+                    </li>
+               </ul>
+            
+        </div>
+
+    
+        <div class="ptgauche">
+           
+             <ul class="ulgauche">
+                <li><a href="forulaire.html">comentaires</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Galerie</a></li>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Projets</a></li>
+            </ul>
+         
+           
+            <ul class="ulsuite">
+                <li><a href="#">comentaires</a></li>
+                <li><a href="#">sugestions</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+           
+        </div>
+
+
+        <div class="socialgauche">
+            <div class="ulsocial">
+                <a href="#">Acceuil</a>
+                <a href="#">Acceuil</a>
+                <a href="#">Acceuil</a>
+                <a href="#">Acceuil</a>
+                
+            </div>
+            
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link-facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- fin footer -->
+  
+    <script>
+        
+    let index = 0; // Variable pour suivre l'index de l'image actuellement affichée
+    const images = document.querySelectorAll('.imgacceuil img'); // Sélectionne toutes les images dans la div d'accueil
+    const intervalTime = 3000; // Temps entre chaque changement d'image en millisecondes
+
+    function changeImage() {
+        // Cache toutes les images
+        images.forEach(img => {
+            img.style.display = 'none';
+        });
+        // Affiche l'image suivante
+        images[index].style.display = 'block';
+        // Incrémente l'index pour passer à l'image suivante
+        index = (index + 1) % images.length; // Utilisation du modulo pour boucler à travers les images
+    }
+
+    // Appelle la fonction changeImage toutes les intervalTime millisecondes
+    setInterval(changeImage, intervalTime);
+
+
+
+    // pppppppppppppppppppppppppppppppppppppppppppppppppp
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+  const images = document.querySelectorAll(".img-apropos .imddf");
+  let currentIndex = 0;
+
+  // Masquer toutes les images sauf la première
+  images.forEach((image, index) => {
+    if (index !== 0) {
+      image.style.display = "none";
+    }
+  });
+
+  setInterval(() => {
+    // Masquer l'image actuelle
+    images[currentIndex].style.display = "none";
+
+    // Calculer l'index de l'image suivante
+    currentIndex = (currentIndex + 1) % images.length;
+
+    // Afficher l'image suivante
+    images[currentIndex].style.display = "block";
+  }, 3000);
+});
+
+
+</script>
+
+</body>
+</html>
