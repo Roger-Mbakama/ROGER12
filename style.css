@@ -160,6 +160,7 @@ body{
 .container p{
     width: 40em;
     color: #122486;
+    text-align: justify;
 } 
 
 
