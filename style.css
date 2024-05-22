@@ -140,7 +140,7 @@ body{
     flex-direction: column;
     background-color: #c00a0a;
     justify-content: center;
-    align-items: center;882469143
+    align-items: center;
     border-top: 0.3px solid #8C9BE7;
     
 }
@@ -153,30 +153,15 @@ body{
     align-items: center;
    
 }
-
-.imgapropos {
-    flex: 1;
-    display: flex;
-     justify-content: flex-end;  /*Aligne l'image à droite */
-     
-}
-
-.imgapropos img {
-    width: 14em;
+..container img{
     border-radius: 2em;
-    margin-left: 1em; /* Ajoute un espace entre l'image et le texte */
+    padding-left: 20px;
 }
+.container p{
+    width: 40em;
+    color: #122486;
+} 
 
-.texta {
-    flex: 1;
-    position: relative;
-    top: 20px;
-    right: 0;
-    width: 20em; 
-    text-align: justify;
-    padding: 3em;
-    z-index: 1;
-}
 
 
 /* section competensces */
