@@ -485,7 +485,7 @@ border-radius:50%;
         font-size: 14px;
         display: flex; 
     }
-    .Apropos{
+    /* .Apropos{
         width: 100%;
         height: 25em;
         display: flex;
@@ -503,6 +503,9 @@ border-radius:50%;
     }
     .imgapropos img{
         width: 100px;
+    } */
+    .competenses{
+        width:80%;
     }
 
     
