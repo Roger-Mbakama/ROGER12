@@ -489,8 +489,9 @@ border-radius:50%;
         width: 100%;
         height: 25em;
         display: flex;
-        flex-direction: column;
-        overflow: scroll;
+        border: #6a7de7;
+        
+        
 
     }
     .container .imr{
