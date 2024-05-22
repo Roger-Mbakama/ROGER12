@@ -135,6 +135,7 @@ body{
 /* a propos */
 .Apropos{
     display: flex;
+    flex-direction: column;
     background-color: #666a81;
     width: 100%;
 }
@@ -142,17 +143,25 @@ body{
     height: 30em;
     width: 100%;
     display: flex;
-    
-   
+    justify-content: center;
+        
 }
+
+
+
 .container img{
-  
+  border-radius: 2em;
+
 }
-.container p{
-    width: 60em;
+
+.paproposs p{
+    width: 40em;
+    display: flex;
     color: #122486;
     text-align: justify;
-} 
+    align-items: center;
+    padding-right: 20px;
+}  
 
 
 
