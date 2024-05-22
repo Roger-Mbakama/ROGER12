@@ -149,6 +149,8 @@ body{
     height: 30em;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 
