@@ -487,12 +487,9 @@ border-radius:50%;
     }
     .Apropos{
         width: 100%;
-        padding-top: 20px;
-        display: flex;
-        height: 40rem;
-        flex-direction: column;
-        padding-bottom: 20rem;
-        
+        height: 20em;
+       
+     
     }
     .container{
         display: flex;
