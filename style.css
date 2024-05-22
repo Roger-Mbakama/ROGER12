@@ -136,6 +136,7 @@ body{
 .Apropos{
     display: flex;
     background-color: #122486;
+    width: 100%;
 }
 .container{
     height: 30em;
