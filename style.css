@@ -487,22 +487,23 @@ border-radius:50%;
     }
     .Apropos{
         width: 100%;
-        height: 20em;
+        height: 25em;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
        
      
     }
     .container{
         display: flex;
-        flex-direction: column;
-        
     }
-    .paraz{
-        overflow: hidden;
-    }
-     /* .imgapropos{
-      top: 30em;
+    .imgapropos{
       display: flex;
-    } */
+    }
+    .imgapropos img{
+        width: 100px;
+    }
+
     
     .galerie{
         overflow: hidden scroll;
