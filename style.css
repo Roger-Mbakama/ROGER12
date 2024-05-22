@@ -138,20 +138,18 @@ body{
     height: 30em;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #c00a0a;
     justify-content: center;
     align-items: center;
     border-top: 0.3px solid #8C9BE7;
     
 }
 
-.container {
+.container{
     height: 30em;
     width: 100%;
-    padding-right: 20em;
     display: flex;
-    align-items: center; /* Ajout pour aligner verticalement les éléments */
-    position: relative;
+   
 }
 
 .imgapropos {
