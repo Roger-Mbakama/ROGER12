@@ -154,8 +154,9 @@ body{
    
 }
 .container img{
-    border-radius: 2em;
-    padding-left: 20px;
+    border-radius: 2.3em;
+    display: flex;
+  
 }
 .container p{
     width: 40em;
