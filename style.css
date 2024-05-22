@@ -135,7 +135,7 @@ body{
 /* a propos */
 .Apropos{
     display: flex;
-    background-color: #122486;
+    background-color: #666a81;
     width: 100%;
 }
 .container{
@@ -146,12 +146,10 @@ body{
    
 }
 .container img{
-    border-radius: 2.3em;
-    display: flex;
   
 }
 .container p{
-    width: 40em;
+    width: 60em;
     color: #122486;
     text-align: justify;
 } 
